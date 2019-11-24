@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B530C232238988A000BFDBEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B530C231238988A000BFDBEE /* AppDelegate.swift */; };
+		B530C236238988A000BFDBEE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B530C235238988A000BFDBEE /* ContentView.swift */; };
+		B530C238238988A100BFDBEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B530C237238988A100BFDBEE /* Assets.xcassets */; };
+		B530C23B238988A100BFDBEE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B530C23A238988A100BFDBEE /* Preview Assets.xcassets */; };
+		B530C249238988A100BFDBEE /* LookatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B530C248238988A100BFDBEE /* LookatTests.swift */; };
+		B530C254238988A100BFDBEE /* LookatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B530C253238988A100BFDBEE /* LookatUITests.swift */; };
+		B530C26423898DAC00BFDBEE /* LIndexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B530C26323898DAC00BFDBEE /* LIndexViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B530C245238988A100BFDBEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B530C226238988A000BFDBEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B530C22D238988A000BFDBEE;
+			remoteInfo = Lookat;
+		};
+		B530C250238988A100BFDBEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B530C226238988A000BFDBEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B530C22D238988A000BFDBEE;
+			remoteInfo = Lookat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B530C22E238988A000BFDBEE /* Lookat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lookat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B530C231238988A000BFDBEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B530C235238988A000BFDBEE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B530C237238988A100BFDBEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B530C23A238988A100BFDBEE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B530C23F238988A100BFDBEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B530C244238988A100BFDBEE /* LookatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LookatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B530C248238988A100BFDBEE /* LookatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookatTests.swift; sourceTree = "<group>"; };
+		B530C24A238988A100BFDBEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B530C24F238988A100BFDBEE /* LookatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LookatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B530C253238988A100BFDBEE /* LookatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookatUITests.swift; sourceTree = "<group>"; };
+		B530C255238988A100BFDBEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B530C26323898DAC00BFDBEE /* LIndexViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LIndexViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B530C22B238988A000BFDBEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B530C241238988A100BFDBEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B530C24C238988A100BFDBEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B530C225238988A000BFDBEE = {
+			isa = PBXGroup;
+			children = (
+				B530C230238988A000BFDBEE /* Lookat */,
+				B530C247238988A100BFDBEE /* LookatTests */,
+				B530C252238988A100BFDBEE /* LookatUITests */,
+				B530C22F238988A000BFDBEE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B530C22F238988A000BFDBEE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B530C22E238988A000BFDBEE /* Lookat.app */,
+				B530C244238988A100BFDBEE /* LookatTests.xctest */,
+				B530C24F238988A100BFDBEE /* LookatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B530C230238988A000BFDBEE /* Lookat */ = {
+			isa = PBXGroup;
+			children = (
+				B530C231238988A000BFDBEE /* AppDelegate.swift */,
+				B530C26323898DAC00BFDBEE /* LIndexViewController.swift */,
+				B530C235238988A000BFDBEE /* ContentView.swift */,
+				B530C237238988A100BFDBEE /* Assets.xcassets */,
+				B530C23F238988A100BFDBEE /* Info.plist */,
+				B530C239238988A100BFDBEE /* Preview Content */,
+			);
+			path = Lookat;
+			sourceTree = "<group>";
+		};
+		B530C239238988A100BFDBEE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B530C23A238988A100BFDBEE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B530C247238988A100BFDBEE /* LookatTests */ = {
+			isa = PBXGroup;
+			children = (
+				B530C248238988A100BFDBEE /* LookatTests.swift */,
+				B530C24A238988A100BFDBEE /* Info.plist */,
+			);
+			path = LookatTests;
+			sourceTree = "<group>";
+		};
+		B530C252238988A100BFDBEE /* LookatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B530C253238988A100BFDBEE /* LookatUITests.swift */,
+				B530C255238988A100BFDBEE /* Info.plist */,
+			);
+			path = LookatUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B530C22D238988A000BFDBEE /* Lookat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B530C258238988A100BFDBEE /* Build configuration list for PBXNativeTarget "Lookat" */;
+			buildPhases = (
+				B530C22A238988A000BFDBEE /* Sources */,
+				B530C22B238988A000BFDBEE /* Frameworks */,
+				B530C22C238988A000BFDBEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lookat;
+			productName = Lookat;
+			productReference = B530C22E238988A000BFDBEE /* Lookat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B530C243238988A100BFDBEE /* LookatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B530C25B238988A100BFDBEE /* Build configuration list for PBXNativeTarget "LookatTests" */;
+			buildPhases = (
+				B530C240238988A100BFDBEE /* Sources */,
+				B530C241238988A100BFDBEE /* Frameworks */,
+				B530C242238988A100BFDBEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B530C246238988A100BFDBEE /* PBXTargetDependency */,
+			);
+			name = LookatTests;
+			productName = LookatTests;
+			productReference = B530C244238988A100BFDBEE /* LookatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B530C24E238988A100BFDBEE /* LookatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B530C25E238988A100BFDBEE /* Build configuration list for PBXNativeTarget "LookatUITests" */;
+			buildPhases = (
+				B530C24B238988A100BFDBEE /* Sources */,
+				B530C24C238988A100BFDBEE /* Frameworks */,
+				B530C24D238988A100BFDBEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B530C251238988A100BFDBEE /* PBXTargetDependency */,
+			);
+			name = LookatUITests;
+			productName = LookatUITests;
+			productReference = B530C24F238988A100BFDBEE /* LookatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B530C226238988A000BFDBEE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = neo;
+				TargetAttributes = {
+					B530C22D238988A000BFDBEE = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					B530C243238988A100BFDBEE = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = B530C22D238988A000BFDBEE;
+					};
+					B530C24E238988A100BFDBEE = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = B530C22D238988A000BFDBEE;
+					};
+				};
+			};
+			buildConfigurationList = B530C229238988A000BFDBEE /* Build configuration list for PBXProject "Lookat" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B530C225238988A000BFDBEE;
+			productRefGroup = B530C22F238988A000BFDBEE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B530C22D238988A000BFDBEE /* Lookat */,
+				B530C243238988A100BFDBEE /* LookatTests */,
+				B530C24E238988A100BFDBEE /* LookatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B530C22C238988A000BFDBEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B530C23B238988A100BFDBEE /* Preview Assets.xcassets in Resources */,
+				B530C238238988A100BFDBEE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B530C242238988A100BFDBEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B530C24D238988A100BFDBEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B530C22A238988A000BFDBEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B530C26423898DAC00BFDBEE /* LIndexViewController.swift in Sources */,
+				B530C232238988A000BFDBEE /* AppDelegate.swift in Sources */,
+				B530C236238988A000BFDBEE /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B530C240238988A100BFDBEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B530C249238988A100BFDBEE /* LookatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B530C24B238988A100BFDBEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B530C254238988A100BFDBEE /* LookatUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B530C246238988A100BFDBEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B530C22D238988A000BFDBEE /* Lookat */;
+			targetProxy = B530C245238988A100BFDBEE /* PBXContainerItemProxy */;
+		};
+		B530C251238988A100BFDBEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B530C22D238988A000BFDBEE /* Lookat */;
+			targetProxy = B530C250238988A100BFDBEE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B530C256238988A100BFDBEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B530C257238988A100BFDBEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B530C259238988A100BFDBEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Lookat/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Lookat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.neo.Lookat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B530C25A238988A100BFDBEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Lookat/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Lookat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.neo.Lookat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B530C25C238988A100BFDBEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LookatTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.neo.LookatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lookat.app/Lookat";
+			};
+			name = Debug;
+		};
+		B530C25D238988A100BFDBEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LookatTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.neo.LookatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lookat.app/Lookat";
+			};
+			name = Release;
+		};
+		B530C25F238988A100BFDBEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LookatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.neo.LookatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Lookat;
+			};
+			name = Debug;
+		};
+		B530C260238988A100BFDBEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LookatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.neo.LookatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Lookat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B530C229238988A000BFDBEE /* Build configuration list for PBXProject "Lookat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B530C256238988A100BFDBEE /* Debug */,
+				B530C257238988A100BFDBEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B530C258238988A100BFDBEE /* Build configuration list for PBXNativeTarget "Lookat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B530C259238988A100BFDBEE /* Debug */,
+				B530C25A238988A100BFDBEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B530C25B238988A100BFDBEE /* Build configuration list for PBXNativeTarget "LookatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B530C25C238988A100BFDBEE /* Debug */,
+				B530C25D238988A100BFDBEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B530C25E238988A100BFDBEE /* Build configuration list for PBXNativeTarget "LookatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B530C25F238988A100BFDBEE /* Debug */,
+				B530C260238988A100BFDBEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B530C226238988A000BFDBEE /* Project object */;
+}
