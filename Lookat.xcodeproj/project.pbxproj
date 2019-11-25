@@ -12,8 +12,14 @@
 		B530C249238988A100BFDBEE /* LookatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B530C248238988A100BFDBEE /* LookatTests.swift */; };
 		B530C254238988A100BFDBEE /* LookatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B530C253238988A100BFDBEE /* LookatUITests.swift */; };
 		B564F2E1238BE7BF007B66CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B564F2E0238BE7BF007B66CA /* AppDelegate.swift */; };
-		B564F2E9238BE801007B66CA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B564F2E7238BE801007B66CA /* ContentView.swift */; };
-		B564F2F7238BE82F007B66CA /* LIndexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B564F2F4238BE82F007B66CA /* LIndexViewController.swift */; };
+		B564F2FB238BEF82007B66CA /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B564F2FA238BEF82007B66CA /* Alamofire.framework */; };
+		B564F2FC238BEF82007B66CA /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B564F2FA238BEF82007B66CA /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B564F2FF238C04A6007B66CA /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B564F2FE238C04A6007B66CA /* SnapKit.framework */; };
+		B564F300238C04A6007B66CA /* SnapKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B564F2FE238C04A6007B66CA /* SnapKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B564F306238C0561007B66CA /* LIndexHeadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B564F305238C0561007B66CA /* LIndexHeadView.swift */; };
+		B564F308238C0F6A007B66CA /* LIndexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B564F307238C0F6A007B66CA /* LIndexViewController.swift */; };
+		B564F30D238C1736007B66CA /* LGlobalProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = B564F30C238C1736007B66CA /* LGlobalProperty.swift */; };
+		B564F30F238C1E4B007B66CA /* LGlobalFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = B564F30E238C1E4B007B66CA /* LGlobalFunction.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +39,21 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		B564F2FD238BEF82007B66CA /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B564F2FC238BEF82007B66CA /* Alamofire.framework in Embed Frameworks */,
+				B564F300238C04A6007B66CA /* SnapKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		B530C22E238988A000BFDBEE /* Lookat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lookat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B530C237238988A100BFDBEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -45,8 +66,12 @@
 		B530C253238988A100BFDBEE /* LookatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookatUITests.swift; sourceTree = "<group>"; };
 		B530C255238988A100BFDBEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B564F2E0238BE7BF007B66CA /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B564F2E7238BE801007B66CA /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		B564F2F4238BE82F007B66CA /* LIndexViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LIndexViewController.swift; sourceTree = "<group>"; };
+		B564F2FA238BEF82007B66CA /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		B564F2FE238C04A6007B66CA /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = Carthage/Build/iOS/SnapKit.framework; sourceTree = "<group>"; };
+		B564F305238C0561007B66CA /* LIndexHeadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LIndexHeadView.swift; sourceTree = "<group>"; };
+		B564F307238C0F6A007B66CA /* LIndexViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LIndexViewController.swift; sourceTree = "<group>"; };
+		B564F30C238C1736007B66CA /* LGlobalProperty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGlobalProperty.swift; sourceTree = "<group>"; };
+		B564F30E238C1E4B007B66CA /* LGlobalFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LGlobalFunction.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +79,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B564F2FB238BEF82007B66CA /* Alamofire.framework in Frameworks */,
+				B564F2FF238C04A6007B66CA /* SnapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +108,7 @@
 				B530C247238988A100BFDBEE /* LookatTests */,
 				B530C252238988A100BFDBEE /* LookatUITests */,
 				B530C22F238988A000BFDBEE /* Products */,
+				B564F2F9238BEF82007B66CA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,11 +126,10 @@
 			isa = PBXGroup;
 			children = (
 				B564F2DF238BE7BF007B66CA /* AppDelegate */,
-				B564F2E5238BE801007B66CA /* BaseClasses */,
 				B564F2F0238BE82F007B66CA /* Main */,
+				B564F2E5238BE801007B66CA /* BaseClasses */,
 				B564F2E8238BE801007B66CA /* Category */,
 				B564F2E6238BE801007B66CA /* Common */,
-				B564F2E4238BE801007B66CA /* Define */,
 				B564F2EA238BE82F007B66CA /* Libraries */,
 				B564F2F5238BE82F007B66CA /* Network */,
 				B564F2EF238BE82F007B66CA /* Resources */,
@@ -147,13 +174,6 @@
 			path = AppDelegate;
 			sourceTree = "<group>";
 		};
-		B564F2E4238BE801007B66CA /* Define */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Define;
-			sourceTree = "<group>";
-		};
 		B564F2E5238BE801007B66CA /* BaseClasses */ = {
 			isa = PBXGroup;
 			children = (
@@ -164,7 +184,8 @@
 		B564F2E6238BE801007B66CA /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				B564F2E7238BE801007B66CA /* ContentView.swift */,
+				B564F30C238C1736007B66CA /* LGlobalProperty.swift */,
+				B564F30E238C1E4B007B66CA /* LGlobalFunction.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -233,7 +254,10 @@
 		B564F2F3238BE82F007B66CA /* Index */ = {
 			isa = PBXGroup;
 			children = (
-				B564F2F4238BE82F007B66CA /* LIndexViewController.swift */,
+				B564F301238C04BE007B66CA /* Controller */,
+				B564F302238C04EB007B66CA /* View */,
+				B564F303238C04F6007B66CA /* ViewModel */,
+				B564F304238C04FF007B66CA /* Model */,
 			);
 			path = Index;
 			sourceTree = "<group>";
@@ -243,6 +267,45 @@
 			children = (
 			);
 			path = Network;
+			sourceTree = "<group>";
+		};
+		B564F2F9238BEF82007B66CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B564F2FE238C04A6007B66CA /* SnapKit.framework */,
+				B564F2FA238BEF82007B66CA /* Alamofire.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B564F301238C04BE007B66CA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B564F307238C0F6A007B66CA /* LIndexViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B564F302238C04EB007B66CA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B564F305238C0561007B66CA /* LIndexHeadView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B564F303238C04F6007B66CA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B564F304238C04FF007B66CA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,6 +318,8 @@
 				B530C22A238988A000BFDBEE /* Sources */,
 				B530C22B238988A000BFDBEE /* Frameworks */,
 				B530C22C238988A000BFDBEE /* Resources */,
+				B564F2F8238BEEB3007B66CA /* ShellScript */,
+				B564F2FD238BEF82007B66CA /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -370,14 +435,38 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B564F2F8238BEEB3007B66CA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SnapKit.framework",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n/usr/local/bin/carthage copy-frameworks\n\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B530C22A238988A000BFDBEE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B564F2F7238BE82F007B66CA /* LIndexViewController.swift in Sources */,
+				B564F308238C0F6A007B66CA /* LIndexViewController.swift in Sources */,
+				B564F306238C0561007B66CA /* LIndexHeadView.swift in Sources */,
 				B564F2E1238BE7BF007B66CA /* AppDelegate.swift in Sources */,
-				B564F2E9238BE801007B66CA /* ContentView.swift in Sources */,
+				B564F30F238C1E4B007B66CA /* LGlobalFunction.swift in Sources */,
+				B564F30D238C1736007B66CA /* LGlobalProperty.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -534,6 +623,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Lookat/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Lookat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -553,6 +646,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Lookat/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Lookat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
